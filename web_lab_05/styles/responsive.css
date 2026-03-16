@@ -1,0 +1,53 @@
+body{
+font-size:16px;
+margin:20px;
+}
+
+/* Tablet */
+
+@media (min-width:768px){
+
+body{
+font-size:18px;
+}
+
+}
+
+/* Desktop */
+
+@media (min-width:1024px){
+
+.gallery{
+grid-template-columns:repeat(4,1fr);
+}
+
+}
+
+/* Large Desktop */
+
+@media (min-width:1200px){
+
+body{
+max-width:1200px;
+margin:auto;
+}
+/* Tablet */
+
+@media (max-width:1024px){
+
+.dashboard{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:600px){
+
+.dashboard{
+grid-template-columns:1fr;
+}
+
+}
+}

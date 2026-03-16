@@ -1,0 +1,23 @@
+.flex-container{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around;
+align-items:center;
+height:200px;
+border:2px solid black;
+}
+.flex-item:nth-child(1){ order:2; }
+.flex-item:nth-child(2){ order:1; }
+
+.flex-item{
+  flex-grow:1;
+}
+.flex-item{
+background:#4CAF50;
+color:white;
+padding:20px;
+margin:10px;
+flex-grow:1;
+text-align:center;
+}

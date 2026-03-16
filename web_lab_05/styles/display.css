@@ -1,0 +1,30 @@
+.block-example{
+display:block;
+background:lightblue;
+padding:10px;
+margin:10px 0;
+}
+
+.inline-example{
+display:inline;
+background:lightgreen;
+padding:10px;
+}
+
+.inline-block-example{
+display:inline-block;
+width:150px;
+background:orange;
+padding:10px;
+margin:5px;
+}
+
+.hidden{
+display:none;
+}
+.hidden{
+  display:none;
+}
+.invisible{
+visibility:hidden;
+}

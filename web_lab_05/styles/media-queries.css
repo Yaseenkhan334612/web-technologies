@@ -1,0 +1,25 @@
+.container{
+  display:flex;
+  gap:20px;
+}
+
+.sidebar{
+  flex:1;
+  background:#f0f0f0;
+  padding:20px;
+}
+
+.main{
+  flex:3;
+  background:#ddd;
+  padding:20px;
+}
+@media(min-width:1024px){
+  body{ font-size:20px; }
+}
+/* Mobile layout */
+@media(max-width:768px){
+  .container{
+    flex-direction:column;
+  }
+}
