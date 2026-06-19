@@ -1,0 +1,16 @@
+.float-img{
+float:left;
+width:300px;
+margin:15px;
+}
+.left{ float:left; width:50%; }
+.right{ float:right; width:50%; }
+
+.container::after{
+  content:"";
+  display:block;
+  clear:both;
+}
+p{
+line-height:1.6;
+}
