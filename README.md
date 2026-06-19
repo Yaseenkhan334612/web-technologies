@@ -1,1 +1,1 @@
-# bookstore-api
+Web technologeslab tasks and assignments
